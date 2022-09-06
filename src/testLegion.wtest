@@ -1,3 +1,4 @@
+import barrio.*
 import chicos.*
 import elementos.*
 import adultos.*
@@ -46,6 +47,7 @@ test "La cantidad de caramelos recibida es correcta" {
 	mirca.serAsustadoPor(legionDelTerror)
 	assert.equals(24,legionDelTerror.caramelos()) 
 }
+
 
 test "Los 2 con mas caramelos" {
 	pancracio.recibirCaramelos(10)
